@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="splide.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,800;1,400&family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>D&#38;G Homebuilders</title>
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <img class="logo" src="/images/logo.svg" alt="D&G Homebuilders Logo" />
+      </div>
+      <div class="right">
+        <a href="tel:+1254-717-5524"
+          ><img src="/images/dt-phone.png" alt="Call Now Button"
+        /></a>
+        <p>254-717-5524</p>
+      </div>
+    </header>
+    <nav class="dt in-down" id="navbar">
+      <ul>
+        <li class="links">
+          <a href="#home" class="homeNavItem active">Home</a>
+        </li>
+        <li class="links">
+          <a href="#services" class="servicesNavItem">Services</a>
+        </li>
+        <li class="links">
+          <a href="#past" class="pastNavItem">Past Projects</a>
+        </li>
+        <li class="links">
+          <a href="#current" class="currentNavItem">Current Projects</a>
+        </li>
+        <li class="links">
+          <a href="#contact" class="contactNavItem">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mb-nav-head in-down">
+      <img src="/images/logo-white.svg" alt="D&G Homebuilders Logo" />
+      <img id="openMenu" src="/images/nav_btn.svg" alt="Open Site Navigation" />
+    </div>
+    <nav class="mb in-down">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#past">Past Projects</a></li>
+        <li><a href="#current">Current Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <section id="home">
+        <div class="left">
+          <div class="group in-down">
+            <h1>D&#38;G HOMEBUILDERS</h1>
+            <p>Build your dream with passion</p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="form-section in-down">
+            <div class="form-head">
+              <h2>Schedule a Call</h2>
+            </div>
+            <form action="https://formspree.io/f/xdobzygz" method="post">
+              <h3>
+                We’ll do our best to call you back at the time you request.
+              </h3>
+              <input
+                id="name"
+                required
+                name="name"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                id="phone-number"
+                name="phone-number"
+                required
+                type="text"
+                placeholder="Phone Number"
+              />
+              <label for="call-time"> Best time to call? </label>
+              <input
+                type="datetime-local"
+                required
+                id="call-time"
+                name="call-time"
+              />
+              <button class="btn">Request Call</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="title">
+          <h3>Our Services</h3>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="img-area image-to-trigger-modal">
+              <img
+                data-pop="newConz"
+                src="/images/past-front-view.jpg"
+                alt="New Construction"
+              />
+            </div>
+            <div class="card-bd">
+              <h4>New Construction</h4>
+              <p>
+                <b>Offering:</b> Residential, Barndominiums, and Small
+                Commercial services.
+              </p>
+              <a
+                data-pop="newConz"
+                data-src="/images/past-front-view.jpg"
+                href="javascript:void(0)"
+                class="anchorToTrigger"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-area image-to-trigger-modal">
+              <img
+                data-pop="additionz"
+                src="/images/remshow.jpg"
+                alt="Additions"
+              />
+            </div>
+            <div class="card-bd">
+              <h4>Additions/Remodels</h4>
+              <p>
+                <b>Offering:</b> Bathroom Remodels, Kitchen Remodels, Bedroom
+                Remodels, and more...
+              </p>
+              <a
+                data-pop="additionz"
+                data-src="/images/remshow.jpg"
+                href="javascript:void(0)"
+                class="anchorToTrigger"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-area image-to-trigger-modal">
+              <img
+                data-pop="barnz"
+                src="/images/barnshow.jpg"
+                alt="Barndominiums"
+              />
+            </div>
+            <div class="card-bd">
+              <h4>Barndominiums</h4>
+              <p><b>Offering:</b> Custom Barndominiums | Metal Buildings</p>
+              <a
+                data-pop="barnz"
+                data-src="/images/barnshow.jpg"
+                href="javascript:void(0)"
+                class="anchorToTrigger"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <h4>Over 25 Years Experience</h4>
+        <p>Serving Central Texas</p>
+      </section>
+    </div>
+    <section id="past">
+      <h2>Past Projects</h2>
+      <div class="splide">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-front-view.jpg"
+                alt="D&G Homebuilders Past Construction view of home"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-drive-view.jpg"
+                alt="D&G Homebuilders Past Construction view of home"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-interior.jpg"
+                alt="D&G Homebuilders Past Construction view of home cabinets and interior"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-fire.jpg"
+                alt="D&G Homebuilders Past Construction view of home fireplace"
+              />
+            </div>
+            <!-- next four -->
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-yard.JPG"
+                alt="D&G Homebuilders Past Construction view of home"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-white.JPG"
+                alt="D&G Homebuilders Past Construction view of home"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-perspective.JPG"
+                alt="D&G Homebuilders Past Construction view of home cabinets and interior"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-wood-floor.JPG"
+                alt="D&G Homebuilders Past Construction view of home fireplace"
+              />
+            </div>
+            <!-- next three -->
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-drive-big.jpg"
+                alt="D&G Homebuilders Past Construction view of home fireplace"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-port.jpg"
+                alt="D&G Homebuilders Past Construction view of home fireplace"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-tub.jpg"
+                alt="D&G Homebuilders Past Construction view of home fireplace"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="current">
+      <h2>Current Projects</h2>
+      <div class="splide">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-front-view.jpg"
+                alt="D&G Homebuilders Past Construction view of home"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-drive-view.jpg"
+                alt="D&G Homebuilders Past Construction view of home"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-interior.jpg"
+                alt="D&G Homebuilders Past Construction view of home cabinets and interior"
+              />
+            </div>
+            <div class="splide__slide">
+              <img
+                data-src="/images/past-fire.jpg"
+                alt="D&G Homebuilders Past Construction view of home fireplace"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Let Us Handle Your Next Project</h2>
+      <div class="contact-container">
+        <div class="contact-wrap">
+          <div class="form-head">
+            <h2>Schedule a Call</h2>
+          </div>
+          <form action="https://formspree.io/f/xdobzygz" method="post">
+            <h3>We’ll do our best to call you back at the time you request.</h3>
+            <input
+              id="name"
+              required
+              name="name"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              id="phone-number"
+              name="phone-number"
+              required
+              type="text"
+              placeholder="Phone Number"
+            />
+            <label for="call-time"> Best time to call? </label>
+            <input
+              type="datetime-local"
+              required
+              id="call-time"
+              name="call-time"
+            />
+            <button class="btn">Request Call</button>
+          </form>
+        </div>
+        <div class="image-side">
+          <img
+            src="/images/workers.png"
+            alt="Graphic of D&G Homebuilders carrying 2X4 boards"
+          />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <h6>&copy;2022 | D&#38;G Homebuilders</h6>
+      <p>Proudly Serving Central Texas</p>
+    </footer>
+    <div class="mb-call-btn in-down">
+      <a href="tel:+1254-717-5524"
+        ><img src="/images/mb_call_btn.svg" alt="Call Now"
+      /></a>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-image">
+          <img src="" alt="" />
+        </div>
+        <p>Some text in the Modal..</p>
+      </div>
+    </div>
+    <script src="splide.min.js"></script>
+    <script src="sliders.js" type="module"></script>
+    <script src="modal.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
